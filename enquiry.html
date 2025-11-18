@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Enquiry — T.E.M Holdings</title>
+  <meta name="description" content="Make an enquiry about our services, volunteering or sponsorship." />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="home.html"><button>Home</button></a>
+    <a href="about.html"><button>About Us</button></a>
+    <a href="gallery.html"><button>Gallery</button></a>
+    <a href="news.html"><button>News</button></a>
+    <a href="contact.html"><button>Contact Us</button></a>
+    <a href="location.html"><button>Location</button></a>
+	<a href="dashboard.html"><button>Dashboard</button></a>
+	 <a href="enquiry.html"><button>Enquiry</button></a>
+  </nav>
+
+
+  <main id="enquiry" class="centered-section">
+    <h2>Enquire about services</h2>
+
+    <form id="enquiryForm" novalidate>
+      <label for="e-name">Full name</label>
+      <input id="e-name" name="name" type="text" required />
+
+      <label for="e-email">Email</label>
+      <input id="e-email" name="email" type="email" required />
+
+      <label for="e-service">Service interested in</label>
+      <select id="e-service" name="service" required>
+        <option value="">Select service</option>
+        <option value="registration">Company registration</option>
+        <option value="design">Graphic design</option>
+        <option value="docs">Business documents</option>
+      </select>
+
+      <label for="e-details">Details</label>
+      <textarea id="e-details" name="details" rows="4"></textarea>
+
+      <div class="form-actions">
+        <button type="submit">Get Estimate</button>
+      </div>
+
+      <div id="enquiryResult" class="form-message" aria-live="polite"></div>
+    </form>
+  </main>
+   <!-- SOCIAL MEDIA LINKS -->
+    <div class="social-links">
+      <a href="https://www.facebook.com/yourpage" target="_blank" aria-label="Facebook">
+        <img src="IMAGES/facebook.png" alt="Facebook" width="30">
+      </a>
+
+      <a href="https://www.instagram.com/yourpage" target="_blank" aria-label="Instagram">
+        <img src="IMAGES/instagram.png" alt="Instagram " width="30">
+      </a>
+
+      <a href="https://twitter.com/yourpage" target="_blank" aria-label="X/Twitter">
+        <img src="IMAGES/twitter.png" alt="Twitter" width="30">
+      </a>
+
+      <a href="https://www.linkedin.com/company/yourpage" target="_blank" aria-label="LinkedIn">
+        <img src="IMAGES/linkedin.png" alt="LinkedIn " width="30">
+      </a>
+    </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

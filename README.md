@@ -43,12 +43,6 @@ The following features were added in Part 3:
 
 ---
 
-## Installation / Running Locally
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/tem-holdings-website.git
-
 
 
 References
